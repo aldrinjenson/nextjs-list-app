@@ -1,11 +1,12 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
-
-export default function Home() {
+const About = () => {
   return (
     <div>
-      <Navbar />
-      <h1>Homepage</h1>
+      <h1>About</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam
+        perferendis, ullam illo dolor ex laudantium quaerat accusamus
+        dignissimos deserunt nemo!
+      </p>
       <p>
         Labore asperiores assumenda hic aspernatur nesciunt eum reiciendis esse
         quasi! Sunt blanditiis reprehenderit amet, quam delectus quo modi illo
@@ -16,7 +17,8 @@ export default function Home() {
         recusandae dolor fuga, exercitationem impedit velit cumque atque
         accusantium magni dicta repellat!
       </p>
-      <Footer />
     </div>
   );
-}
+};
+
+export default About;
